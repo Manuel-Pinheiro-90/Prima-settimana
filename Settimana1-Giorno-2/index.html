@@ -11,13 +11,15 @@
 
 <body>
     <header>
-        <img src="img/logo.svg" alt="logo epicode">
-        <h1>EPICODE - il blog dei developers</h1>
+        <figure>
+            <img src="img/logo.svg" alt="logo epicode">
+            <h1>EPICODE - il blog dei developers</h1>
+        </figure>
         <nav>
             <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="#">Articoli</a></li>
-                <li><a href="#">Lavora con noi</a></li>
+                <li><a href="index.html" title="Home">Home</a></li>
+                <li><a href="#" title="Articoli">Articoli</a></li>
+                <li><a href="#" title="Lavora con noi">Lavora con noi</a></li>
             </ul>
 
         </nav>
@@ -25,7 +27,7 @@
     </header>
     <main>
         <article>
-            <fieldset>
+            <section>
                 <h2>Come creare un template per i post</h2>
                 <h3>Di Mario Rossi - pubblicato il 25-10-2020</h3>
                 <br>
@@ -55,14 +57,16 @@
                     Molestias earum vel quisquam, non sint ut quidem mollitia neque, dicta, id laudantium. Adipisci
                     error
                     assumenda ad eius fugit nostrum minus ex!
-
+            </section>
+            <section>
                 <h3>Le varie aree saranno quindi suddivis in:</h3>
                 <ul>
-                    <li>contenuti di intestazione del tag &lt;header&gt; </li>
-                    <li>contenuti centrali variabili del tag &lt;main&gt; (corpo principale) </li>
-                    <li>contenuti di fine pagina comuni, da inserire nel tag &lt;footer&gt; </li>
+                    <li>contenuti di intestazione del tag <code>&lt;header&gt;</code> </li>
+                    <li>contenuti centrali variabili del tag <code>&lt;main&gt;</code> (corpo principale) </li>
+                    <li>contenuti di fine pagina comuni, da inserire nel tag <code>&lt;footer&gt;</code> </li>
                 </ul>
                 <br>
+
                 <h3>Formattazione codice</h3>
                 <br>
                 <p>il testo dell'articolo dovrà esser formattato per identificare tutte le parti da selezionare con css.
@@ -114,7 +118,10 @@
                     </tbody>
 
                 </Table>
-                <p>Un test di validazione potrà essere fatto tramite <a href="https://validator.w3.org/">W3c
+            </section>
+            <div>
+                <p>Un test di validazione potrà essere fatto tramite <a href="https://validator.w3.org/" target="_blank"
+                        title="W3c Validator">W3c
                         Validator</a>
                     dedicato allo scopo. <br> una volta ottimizzato il tutto avremo raggiunto il nostro obbiettivo ed
                     essere
@@ -125,7 +132,7 @@
                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                     referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
                 </iframe>
-            </fieldset>
+            </div>
         </article>
         <br>
         <br>
@@ -143,27 +150,30 @@
     <br>
     <br>
     <aside>
-        <fieldset>
-            <ul>
-                <li><a href="#">Articoli correlati <br>
-                        validare il codice HTML <br>
-                        Categoria: develop <br>
-                        Data:18-9-2020</a></li>
-                <li><a href="#"> Correggere la sintassi <br>
-                        Categoria: develop <br>
-                        Data:16-9-2020</a></li>
-                <li><a href="#">Meno kb nella pagina <br>
-                        Categoria:Ottimizzazione <br>
-                        Data:30-9-2020</a></li>
-            </ul>
+        <div>
 
-        </fieldset>
+            <p><a href="#" title="articoli correlati">Articoli correlati <br>
+                    validare il codice HTML <br>
+                    Categoria: develop <br>
+                    Data:18-9-2020</a></p>
+            <p><a href="#" title="correggere la sintassi"> Correggere la sintassi <br>
+                    Categoria: develop <br>
+                    Data:16-9-2020</a></p>
+            <p><a href="#" title="meno kb nella pagina">Meno kb nella pagina <br>
+                    Categoria:Ottimizzazione <br>
+                    Data:30-9-2020</a></p>
+            </ul>
+        </div>
+
 
     </aside>
     <footer>
         <p>Blog EPICODE &copy;2024</p>
-        <p>testata online Mario Rossi, registrata con prot.n213/2018 - via Luigi Einaudi 2 - Milano.P.IVA 00112233. <br>
-            info@epicode.shool <a href="mailto:info@epicode.shool">Contattami</a>
+        <address>
+            <p>testata online Mario Rossi, registrata con prot.n213/2018 - via Luigi Einaudi 2 - Milano.P.IVA 00112233.
+                <br>
+                info@epicode.shool <a href="mailto:info@epicode.shool">Contattami</a>
+        </address>
     </footer>
 </body>
 
