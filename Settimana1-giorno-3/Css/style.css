@@ -37,7 +37,7 @@ header figcaption span {
 
 #video img{
     display: inline-block;
-
+border-radius: 20px;
 }
 
 
