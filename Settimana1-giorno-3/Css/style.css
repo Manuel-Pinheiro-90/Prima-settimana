@@ -31,12 +31,23 @@ header figcaption span {
     margin-top: 40px;
 }
 
+/* sezione Video che è diventata immagine */
+
+#video{ text-align: center;}
+
+#video img{
+    display: inline-block;
+
+}
+
+
 #video figcaption {
     text-align: center;
     color: gray;
     margin: 20px 20px;
 }
 
+ /*Fine sezione video */
 #Testo_sp {
     text-transform: uppercase;
     color: chocolate;
@@ -54,13 +65,14 @@ header figcaption span {
     color: rgb(67, 105, 92);
 }
 
+/*LIste*/
 .titolo_m {
 
     margin-top: 50px 0px;
     border-bottom: 2px solid rgb(67, 105, 92);
 
 }
-/*LIste*/
+
 .lista li{margin-bottom: 1em;}
 
 
