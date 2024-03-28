@@ -13,7 +13,7 @@ body {
     max-width: 700px;
     min-width: 400px;
     width: 100%;
-
+padding: 50px;
 }
 
 
@@ -50,9 +50,11 @@ a:hover {
 
 /* HEADER */
 header {
-    background-color: rgb(67, 134, 179);
+    background: rgb(58, 75, 180);
+    background: linear-gradient(180deg, rgba(58, 75, 180, 1) 17%, rgba(60, 201, 180, 1) 100%);
     text-align: center;
     box-shadow: 5px 10px 5px gray;
+    padding-top: 30px;
     padding-bottom: 30px;
 }
 
@@ -69,6 +71,11 @@ header {
 /* MAIN */
 main {
     background-color: white;
+    border-radius: 10px;
+    box-shadow: 5px 10px 5px gray;
+padding: 5em;
+
+
 }
 
 
@@ -87,12 +94,25 @@ p {
     color: violet;
     font: bold;
 }
+#lista-d
+ol{
+    list-style: decimal;
+}
+
+
+#lista-u ul{
+    list-style: circle;
+}
+
+.lista{padding: 2em;}
 
 
 /* TABELLE */
+
 .tabella {
     border-collapse: collapse;
     width: 100%;
+padding: 2em;
 }
 
 .tabella th, .tabella td {
@@ -115,8 +135,13 @@ p {
 tr:last-child td {
     border-bottom: 2px solid lightblue;
 }
+/* sezione */
+iframe{border-radius: 10px;}
+
 
 /* FORM */
+#email{background-color: grey;
+height: 100px;}
 
 /* ELEMENTI NELL' ASIDE */
 .correlato {
@@ -134,4 +159,11 @@ footer {
     background: linear-gradient(180deg, rgba(58, 75, 180, 1) 17%, rgba(60, 201, 180, 1) 100%);
     border-radius: 10px;
     box-shadow: 5px 10px 5px gray;
+padding: 3em;
+
+}
+address a{color: rgb(238, 41, 238);
+font-weight: bold;
+
+
 }

@@ -14,21 +14,22 @@
   <link
     href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,300;0,400;0,700;1,300&display=swap"
     rel="stylesheet">
-<link rel="stylesheet" href="assets/css/style.css">
-<style>
-body{background-image: url(assets/img/sfondo.png);}
-
-
-
-</style>
+  <link rel="stylesheet" href="assets/css/style.css">
+  <style>
+    body {
+      background-image: url(assets/img/sfondo.png);
+    background-position: center;
+    }
+  </style>
 </head>
 
 <body>
 
   <div id="corpo">
+    <!--------------------------------------------------header------------------------------------------------------------------------------------------------>
     <header class="figlio">
       <picture id="logo">
-        <img src="assets/img/logo.svg" alt="Logo">
+        <img src="assets/img/logo.svg" alt="Logo" width="300px">
       </picture>
       <nav>
         <h2>EPICODE-IL BLOG DEI DEVELOPERS</h2>
@@ -39,32 +40,38 @@ body{background-image: url(assets/img/sfondo.png);}
         </ul>
       </nav>
     </header>
-
+<!--------------------------------------------------inizio main------------------------------------------------------------------------------------------------>
     <main class="figlio">
       <article>
         <div>
           <h1> Come creare un Template per i post</h1>
-          <p class="dati-utente">di mario rossi- pubblicato il 25-102020</p>
+          <p><i class="fas fa-pen-square"></i> di Mario Rossi -
+            <span><i class="fas fa-clock"></i> pubblicato il 25-10-2020</span></p>
           <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.
             Rem, voluptatibus iste dictas <span class="sottolineatura"> optio dolores eaque </span>nam beatae?
             Vero ut veritatis sapiente! Molestiae quas doloremque nisi reiciendis? Reprehenderit, veniam. Quis, impedit?
           </p>
+          <div class="lista" id="lista-u">
           <p>Varie chiacchere saranno suddivise in:</p>
           <ul>
             <li>contenuti di intestazione tag <code><span class="elemento-s">&lt;header&gt;</span></li>
             <li>contenuti vari pre riempire la tila <code><span class="elemento-s">&lt;main&gt;</span></code></li>
             <li> contenutuishasjasjasdjhasjdhasjhdd <code><span class="elemento-s">&lt;main&gt;</span></code></li>
           </ul>
+        </div>
           <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Reiciendis aliquam adipisci in quasi ullam omnis
             corporis, dolorem tempora nam deserunt atque,<span class="sottolineatura"> nemo, veritatis facere quod nihil
               perspiciatis!</span> Quas, placeat
             animi.</p>
-          <ol>
+          <div class="lista" id="lista-d">
+            <ol>
             <li>psum, dolor sit amet consectetur adipisicing elit. Reici</li>
             <li>psum, dolor sit amet consectetur adipisicing elit. Reici</li>
             <li>psum, dolor sit amet consectetur adipisicing elit. Reici</li>
           </ol>
         </div>
+        </div>
+        <!--------------------------------------------------tabella------------------------------------------------------------------------------------------------>
         <div id="sezione-tabella">
           <Table class="tabella">
             <caption>Diffusione css</caption>
@@ -105,17 +112,21 @@ body{background-image: url(assets/img/sfondo.png);}
 
           </Table>
         </div>
+        <!--------------------------------------------------video------------------------------------------------------------------------------------------------>
         <section>
           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda rerum eligendi temporibus tenetur
             placeat non obcaecati aperiam quia doloremque ad dolorum nemo maiores totam minima debitis, dignissimos rem.
             Nostrum, reprehenderit.</p>
           <div>
-            <iframe width="300" height="300" src="https://www.youtube.com/embed/0Om_gCEezUs?si=3-h89x4sF_iM0q7p"
+            <iframe width="410" height="300" src="https://www.youtube.com/embed/0Om_gCEezUs?si=3-h89x4sF_iM0q7p"
               title="YouTube video player" frameborder="0"
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
               referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
           </div>
-          <div id="email">
+        </section>
+          <!--------------------------------------------------SEZIONE EMAIL------------------------------------------------------------------------------------------------>
+        
+        <div id="email">
             <h3>novità</h3>
             <p>vuoi rimanere aggiornato?</p>
             <form method="post" action="verifica">
@@ -126,9 +137,11 @@ body{background-image: url(assets/img/sfondo.png);}
             </form>
 
           </div>
-        </section>
       </article>
+      <!--------------------------------------------------correlati------------------------------------------------------------------------------------------------>
+      
       <aside>
+
 
         <div class="correlato">
           <a href="#" title="#">link correlato</a>
@@ -147,12 +160,12 @@ body{background-image: url(assets/img/sfondo.png);}
         </div>
       </aside>
     </main>
-
+<!--------------------------------------------------footer------------------------------------------------------------------------------------------------>
     <footer class="figlio">
       <p>Blog Epicode &copy;2021;</p>
       <address>Testata online di Mario Rossi, registrata con prot. n.213/2018 - via
         Luigi Einaudi 2 - Milano. P.IVA 00112233. <a href="mailto:info@epicode.school"
-          title="contattami">info@epicode.school</a< /address>
+          title="contattami">info@epicode.school</a></address>
 
     </footer>
 
