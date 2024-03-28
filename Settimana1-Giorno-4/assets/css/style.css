@@ -140,17 +140,29 @@ iframe{border-radius: 10px;}
 
 
 /* FORM */
-#email{background-color: grey;
-height: 100px;}
-
-/* ELEMENTI NELL' ASIDE */
-.correlato {
-    width: 200px;
-    height: 200px;
-    background-color: gray;
-    border-radius: 10px;
+#email-u{background-color: rgb(189, 184, 184);
+border-radius: 10px;
+padding: 1em;
 }
 
+
+/* ELEMENTI NELL' ASIDE */
+aside{padding: 2em;
+}
+.correlato {
+    width: 200px;
+    height: 100px;
+    background-color:rgb(189, 184, 184);
+    border-radius: 10px;
+width: 100%;
+text-align: left;
+margin-bottom: 1em;
+padding-left: 1em;
+padding-right: 1em;
+}
+.pt{text-align: right;}
+
+.correlato a { color: rgb(0, 102, 255);}
 
 
 /* FOOTER */
