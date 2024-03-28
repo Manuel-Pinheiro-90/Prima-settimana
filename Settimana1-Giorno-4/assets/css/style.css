@@ -5,8 +5,9 @@ body {
     font-size: 16px;
     line-height: 1.5;
     color: #333;/
- 
-}
+   }
+
+  
 
 #corpo {
     margin: auto;
@@ -14,7 +15,10 @@ body {
     min-width: 400px;
     width: 100%;
 padding: 50px;
+
+
 }
+
 
 
 h1, h2, h3, h4, h5, h6 {
@@ -153,7 +157,7 @@ padding: 1em;
 aside{padding: 2em;
 }
 .correlato {
-    width: 200px;
+    
     height: 100px;
     background-color:rgb(189, 184, 184);
     border-radius: 10px;
@@ -166,7 +170,7 @@ padding-right: 1em;
 .pt{text-align: right;}
 
 .correlato a { color: rgb(0, 102, 255);}
-
+ 
 
 /* FOOTER */
 footer {
