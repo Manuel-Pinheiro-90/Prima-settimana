@@ -5,7 +5,17 @@ body {
     font-size: 16px;
     line-height: 1.5;
     color: #333;/
+ 
 }
+
+#corpo {
+    margin: auto;
+    max-width: 700px;
+    min-width: 400px;
+    width: 100%;
+
+}
+
 
 h1, h2, h3, h4, h5, h6 {
 
@@ -32,9 +42,10 @@ a:hover {
 
 .figlio {
     display: block;
-   
+
     margin-bottom: 40px
 }
+
 
 
 /* HEADER */
@@ -56,28 +67,26 @@ header {
 
 
 /* MAIN */
-#corpo {
-    margin: auto;
-    max-width: 700px;
-    min-width: 400px;
-    width: 100%;
-   
-}
-
 main {
     background-color: white;
 }
 
 
 /* ELEMENTI NEL MAIN - ARTICLE */
-p{text-align: left;}
-
-.elemento-s{ background-color: gray;
-border-radius: 2px;
-color: white;
+p {
+    text-align: left;
 }
-.sottolineatura{color: violet;
-font: bold;}
+
+.elemento-s {
+    background-color: gray;
+    border-radius: 2px;
+    color: white;
+}
+
+.sottolineatura {
+    color: violet;
+    font: bold;
+}
 
 
 /* TABELLE */
@@ -123,6 +132,6 @@ tr:last-child td {
 footer {
     background: rgb(58, 75, 180);
     background: linear-gradient(180deg, rgba(58, 75, 180, 1) 17%, rgba(60, 201, 180, 1) 100%);
-border-radius: 10px;
-box-shadow: 5px 10px 5px gray;
+    border-radius: 10px;
+    box-shadow: 5px 10px 5px gray;
 }

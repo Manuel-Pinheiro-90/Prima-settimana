@@ -6,24 +6,21 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Prova di oggi</title>
-
-  <link rel="stylesheet" href="css/reset.css">
-  <link rel="stylesheet" href="css/font-awesome.css">
-  <link rel="stylesheet" href="css/style.css">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="assets/css/reset.css">
+  <link rel="stylesheet" href="assets/css/font-awesome.css">
+  <link rel="stylesheet" href="assets/css/">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link
     href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,300;0,400;0,700;1,300&display=swap"
     rel="stylesheet">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
-  <style>
-    body {
-      background-image: url(assets/img/sfondo.png);
-    }
-  </style>
+<link rel="stylesheet" href="assets/css/style.css">
+<style>
+body{background-image: url(assets/img/sfondo.png);}
 
+
+
+</style>
 </head>
 
 <body>
@@ -36,9 +33,9 @@
       <nav>
         <h2>EPICODE-IL BLOG DEI DEVELOPERS</h2>
         <ul id="menu-no decori">
-          <li><a href="#">&rarr;HOME&larr;</a></li>
-          <li><a href="#">&rarr;ARTICOLI&larr;</a></li>
-          <li><a href="#">&rarr;LAVORA CON NOI&larr;</a></li>
+          <li><a href="#" title="Home page">&rarr;HOME&larr;</a></li>
+          <li><a href="#" title="Articoli">&rarr;ARTICOLI&larr;</a></li>
+          <li><a href="#" title="Lavora con noi">&rarr;LAVORA CON NOI&larr;</a></li>
         </ul>
       </nav>
     </header>
@@ -54,12 +51,13 @@
           </p>
           <p>Varie chiacchere saranno suddivise in:</p>
           <ul>
-            <li>contenuti di intestazione tag <code><span class="elemento-s">&lt;header&gt;</span></code></li>
+            <li>contenuti di intestazione tag <code><span class="elemento-s">&lt;header&gt;</span></li>
             <li>contenuti vari pre riempire la tila <code><span class="elemento-s">&lt;main&gt;</span></code></li>
             <li> contenutuishasjasjasdjhasjdhasjhdd <code><span class="elemento-s">&lt;main&gt;</span></code></li>
           </ul>
           <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Reiciendis aliquam adipisci in quasi ullam omnis
-            corporis, dolorem tempora nam deserunt atque,<span class="sottolineatura"> nemo, veritatis facere quod nihil perspiciatis!</span> Quas, placeat
+            corporis, dolorem tempora nam deserunt atque,<span class="sottolineatura"> nemo, veritatis facere quod nihil
+              perspiciatis!</span> Quas, placeat
             animi.</p>
           <ol>
             <li>psum, dolor sit amet consectetur adipisicing elit. Reici</li>
@@ -112,7 +110,7 @@
             placeat non obcaecati aperiam quia doloremque ad dolorum nemo maiores totam minima debitis, dignissimos rem.
             Nostrum, reprehenderit.</p>
           <div>
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/0Om_gCEezUs?si=3-h89x4sF_iM0q7p"
+            <iframe width="300" height="300" src="https://www.youtube.com/embed/0Om_gCEezUs?si=3-h89x4sF_iM0q7p"
               title="YouTube video player" frameborder="0"
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
               referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
@@ -120,27 +118,29 @@
           <div id="email">
             <h3>novità</h3>
             <p>vuoi rimanere aggiornato?</p>
-            <form action="#">
-              <label for="email">Email</label>
-              <input type="email" name="email" id="email" placeholder="inserire email">
-              <input type="submit">
+            <form method="post" action="verifica">
+              <fieldset>
+                <input type="email" name="email" id="email" placeholder="inserire email" required>
+                <button type="submit">Iscriviti!</button>
+              </fieldset>
             </form>
+
           </div>
         </section>
       </article>
       <aside>
 
         <div class="correlato">
+          <a href="#" title="#">link correlato</a>
+          <p>categoria:devellop</p>
+          <P>Data:18-9_2020</P>
+        </div>
+        <div class="correlato" title="#">
           <a href="#">link correlato</a>
           <p>categoria:devellop</p>
           <P>Data:18-9_2020</P>
         </div>
-        <div class="correlato">
-          <a href="#">link correlato</a>
-          <p>categoria:devellop</p>
-          <P>Data:18-9_2020</P>
-        </div>
-        <div class="correlato">
+        <div class="correlato" title="#">
           <a href="#">link correlato</a>
           <p>categoria:devellop</p>
           <P>Data:18-9_2020</P>
@@ -149,10 +149,11 @@
     </main>
 
     <footer class="figlio">
-      <p>Blog epicode &copy;</p>
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem corporis laboriosam voluptatem autem at, in
-        dolores excepturi a quia, quam nihil repudiandae, quaerat dicta itaque optio aperiam ratione magnam rerum.</p>
-      <a href="mailto:Info@Epicode.com">Info@Epicode.com</a>
+      <p>Blog Epicode &copy;2021;</p>
+      <address>Testata online di Mario Rossi, registrata con prot. n.213/2018 - via
+        Luigi Einaudi 2 - Milano. P.IVA 00112233. <a href="mailto:info@epicode.school"
+          title="contattami">info@epicode.school</a< /address>
+
     </footer>
 
 
