@@ -33,11 +33,13 @@ header figcaption span {
 
 /* sezione Video che è diventata immagine */
 
-#video{ text-align: center;}
+#video {
+    text-align: center;
+}
 
-#video img{
+#video img {
     display: inline-block;
-border-radius: 20px;
+    border-radius: 20px;
 }
 
 
@@ -47,7 +49,7 @@ border-radius: 20px;
     margin: 20px 20px;
 }
 
- /*Fine sezione video */
+/*Fine sezione video */
 #Testo_sp {
     text-transform: uppercase;
     color: chocolate;
@@ -73,7 +75,9 @@ border-radius: 20px;
 
 }
 
-.lista li{margin-bottom: 1em;}
+.lista li {
+    margin-bottom: 1em;
+}
 
 
 
@@ -94,7 +98,8 @@ footer a {
     color: rgb(67, 105, 92);
 }
 
-a:hover{color: brown;
-text-transform: uppercase;
+a:hover {
+    color: brown;
+    text-transform: uppercase;
 
 }
